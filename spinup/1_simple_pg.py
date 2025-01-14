@@ -56,7 +56,7 @@ def train(env_name='CartPole-v0', hidden_sizes=[32], lr=1e-2,
         # make some empty lists for logging.
         batch_obs = []          # for observations
         batch_acts = []         # for actions
-        batch_weights = []      # for R(tau) weighting in policy gradient
+        batch_weights = []      # for R(tau) weighting in policy gradient - reward you get at the end of an episode
         batch_rets = []         # for measuring episode returns
         batch_lens = []         # for measuring episode lengths
 
